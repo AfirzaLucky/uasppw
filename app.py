@@ -13,7 +13,7 @@ Data, lda, Model, Implementasi = st.tabs(['Data', 'LDA', 'Modelling', 'Implement
 
 with Data:
    st.title("Impelementasi Latent Dirichlet Allocation (LDA) ")
-   st.text("Arbil Shofiyurrahman - 210411100016")
+   st.text("Afirza Lucky Pradana - 210411100018")
    st.subheader("Deskripsi Data")
    st.write("Fitur Fitur yang ada diantaranya:")
    st.text("Fitur-fitur data:")
@@ -43,7 +43,7 @@ with lda:
       submit() 
 
 with Model:
-    tf = pd.read_csv("berita_tf.csv")
+    tf = pd.read_csv("dftf.csv")
     st.subheader("Jumlah Topik yang Anda Gunakan : " + str(topik))
     st.write("Jika pada menu LDA tidak menentukan jumlah topiknya maka proses modelling akan di default dengan jumlah topik = 5")
     lda = LatentDirichletAllocation(n_components=topik, doc_topic_prior=0.2, topic_word_prior=0.1, random_state=42, max_iter=1)
