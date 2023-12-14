@@ -10,7 +10,7 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.feature_extraction.text import CountVectorizer
 
 Data, lda, Model, Implementasi = st.tabs(['Data', 'LDA', 'Modelling', 'Implementasi'])
-https://github.com/AfirzaLucky/uasppw
+#https://github.com/AfirzaLucky/uasppw
 with Data:
    st.title("Impelementasi Latent Dirichlet Allocation (LDA) ")
    st.text("Afirza Lucky Pradana - 210411100018")
