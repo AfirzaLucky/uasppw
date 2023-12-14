@@ -8,9 +8,9 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.feature_extraction.text import CountVectorizer
-#https://github.com/AfirzaLucky/uasppw
-Data, lda, Model, Implementasi = st.tabs(['Data', 'LDA', 'Modelling', 'Implementasi'])
 
+Data, lda, Model, Implementasi = st.tabs(['Data', 'LDA', 'Modelling', 'Implementasi'])
+https://github.com/AfirzaLucky/uasppw
 with Data:
    st.title("Impelementasi Latent Dirichlet Allocation (LDA) ")
    st.text("Afirza Lucky Pradana - 210411100018")
